@@ -1,0 +1,41 @@
+<setup>
+  <text name="namePolygon">
+    <conditionalContent>
+      <case condition="$n = 3">an equilateral triangle</case>
+      <case condition="$n = 4">a square</case>
+      <case condition="$n = 5">a regular pentagon</case>
+      <case condition="$n = 6">a regular hexagon</case>
+      <case condition="$n = 7">a septagon</case>
+      <case condition="$n = 8">an octagon</case>
+      <case condition="$n = 9">a nonagon</case>
+    </conditionalContent>
+  </text>
+  <number name="style">
+    <conditionalContent>
+      <case condition="$n = 3">1</case>
+      <case condition="$n = 4">2</case>
+      <case condition="$n = 5">3</case>
+      <case condition="$n = 6">4</case>
+      <case condition="$n = 7">5</case>
+      <case condition="$n = 8">1</case>
+      <case condition="$n = 9">2</case>
+    </conditionalContent>
+  </number>
+    
+</setup>
+<activity>
+<title>Regular Polygons</title>
+
+<slider name="n" from="3" to="9">
+    <label>Number of sides</label>
+</slider>
+
+<p>This is an <m>$n</m>-sided regular polygon. It is called <alert>$namePolygon</alert>. </p>
+<graph>
+  <regularPolygon numSides="$n" filled="true" styleNumber="$style" radius="6"></regularPolygon>
+</graph>
+</activity>
+
+
+
+

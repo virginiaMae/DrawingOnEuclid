@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-prefigure" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Prefigure Diagrams</title>
+
+<figure xml:id="poly-ex">
+    <caption>Sample polygons</caption>
+    <image>
+        <shortdescription>Examples of polygons</shortdescription>
+        <prefigure xmlns="https://prefigure.org" label="prefig-polygon">
+            <xi:include href="prefigure/circles.xml" />
+        </prefigure>
+    </image>
+  </figure>
+
+</section>

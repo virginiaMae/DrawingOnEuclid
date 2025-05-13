@@ -1,0 +1,263 @@
+<!-- 
+
+Course:    Intermediate Algebra
+Chapter:   #. 
+Section:   #. Intro to Inequalities
+Author:    Anurag Katyal, Spring 2025
+Contact:   anurag@whyoverhow.com 
+
+-->
+
+
+
+<title>(Pretzel) An Introduction to Inequalities</title>
+
+<section><title></title>
+
+<section><title></title>
+
+  
+  
+<setup>
+  <selectFromSequence name="a" from="-4" to="4"/>
+  <math simplify name="xaLeft">$a - 2</math>
+  <math simplify name="xaRight">$a + 2</math>
+  <math simplify name="xaQLeft">$a - 4</math>
+  <math simplify name="xaQRight">$a + 5</math>
+
+  <styleDefinitions>
+    <styleDefinition styleNumber="10" markerColor="orange" fillColor="orange" markerStyle="circle" lineColor="orange" lineWidth="5">
+      
+      
+    </styleDefinition>
+  </styleDefinitions>
+</setup>
+
+
+
+<aside boxed>
+  <title>
+    Instructions for Pretzel
+  </title>
+   
+  <ul>
+    <li>Start anywhere in the activity and enter 1 in the box next to the first problem you wish to solve.</li> 
+    <li>Search for your answer, enter '2' in the box and the attached problem becomes problem 2.</li> 
+    <li>Continue in this manner until you return to your first problem, completing the pretzel. There is only one correct path to the end, including all problems.</li>
+    <li>Happy solving!</li>
+  </ul>
+    
+</aside>
+  
+<!-- <shuffle> -->
+
+  <sideBySide margins = "0% 5% 0%">
+
+    <!-- 1 -->
+     <shuffle>
+    
+        <section>
+          <title>
+            Answer: <m>x > $a</m>
+          </title>
+          <mathInput name="p1" minWidth="25"/>What <em>interval</em> represents solutions to <m>x < $a</m>?
+        </section>
+
+        
+      
+    <!-- 2 -->
+      
+      <section>
+          <title>Answer:
+<graph fixed displayMode="inline" size="small" fixAxes displayYAxis="false" aspectRatio="8/2" showBorder="false" ymax="2" ymin="-2" xmin="$xaLeft" xmax="$xaRight" displayXAxisTickLabels="true">
+          <vector styleNumber="10" fixLocation head="($xaRight,0)" tail="($a,0)"></vector>
+          <endpoint styleNumber="10"  fixLocation open>($a,0)</endpoint>
+        </graph>
+                  </title>     
+          <mathInput name="p3" minWidth="25"/>What <em>inequality</em> has solutions represented by the interval <m>(-\infty, $a]</m>?
+        </section>      
+     
+      </shuffle>
+    </sideBySide>
+
+   
+    <sideBySide margins = "0% 5% 0%">
+    
+    <!-- 3 -->
+      <shuffle>
+
+        <section>
+          <title>
+            Answer: <m><subsetOfReals displayMode="intervals">-infinity < x < $a</subsetOfReals></m>
+          </title>
+          <mathInput name="p2" minWidth="25"/>What <em>graph</em> represents solutions to <m>x > $a</m>?
+        </section> 
+      
+      <!-- 4 -->
+        
+        <section>
+          <title>
+            Answer: <subsetOfReals displayMode="inequalities">-infinity < x <= $a</subsetOfReals>
+          </title>
+          <mathInput name="p4" minWidth="25"/>What <em>inequality</em> has solutions represented by the graph fixed below?
+            <graph fixed size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaQLeft" xmax="$xaQRight" displayXAxisTickLabels="true">
+              <vector fixLocation head="($xaQLeft,0)" tail="($a,0)"></vector>
+              <endpoint fixLocation open>($a,0)</endpoint>
+            </graph>
+        </section> 
+        
+      </shuffle>
+    </sideBySide>
+      
+    <sideBySide margins = "0% 5% 0%">
+    
+    <!-- 5 -->
+      <shuffle>
+
+        <section>
+          <title>
+            Answer: <m>x < $a</m>
+          </title>
+          <mathInput name="p5" minWidth="25"/>What <em>interval</em> represents the same solutions as the graph fixed below?
+            <graph fixed size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaQLeft" xmax="$xaQRight" displayXAxisTickLabels="true">
+              <vector fixLocation head="($xaQLeft,0)" tail="($a,0)"></vector>
+              <endpoint fixLocation open="false">($a,0)</endpoint>
+            </graph>
+        </section> 
+      
+      <!-- 6 -->
+        <section>
+          <title>
+            Answer: <m>(-\infty, $a]</m>
+          </title>
+          <mathInput name="p6" minWidth="25"/>What <em>interval</em> represents the same solutions as the graph fixed below?
+            <graph fixed size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaQLeft" xmax="$xaQRight" displayXAxisTickLabels="true">
+              <vector fixLocation head="($xaQRight,0)" tail="($a,0)"></vector>
+              <endpoint fixLocation open="false">($a,0)</endpoint>
+            </graph>
+        </section> 
+        
+      </shuffle>
+    </sideBySide>
+    
+    <sideBySide margins = "0% 5% 0%">
+    
+    <!-- 7 -->
+      <shuffle>
+
+        <section>
+          <title>
+            Answer: <graph fixed displayMode="inline" size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaLeft" xmax="$xaRight" displayXAxisTickLabels="true">
+          <vector styleNumber="10" fixLocation head="($xaLeft,0)" tail="($a,0)"></vector>
+          <endpoint styleNumber="10" fixLocation open="false">($a,0)</endpoint>
+        </graph>
+          </title>
+          <mathInput name="p9" minWidth="25"/>What <em>graph</em> represents solutions to <m>x < $a</m>?
+        </section> 
+      
+        
+        
+      <!-- 8 -->
+        
+        <section>
+          <title>
+            Answer: <graph fixed displayMode="inline" size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaLeft" xmax="$xaRight" displayXAxisTickLabels="true">
+          <vector styleNumber="10" fixLocation head="($xaRight,0)" tail="($a,0)"></vector>
+          <endpoint styleNumber="10" fixLocation open="false">($a,0)</endpoint>
+        </graph>
+          </title>
+          <mathInput name="p8" minWidth="25"/>What <em>graph</em> represents solutions to <m>x \leq $a</m>?
+        </section> 
+      </shuffle>
+    </sideBySide>
+    
+    <sideBySide margins = "0% 5% 0%">
+    
+    <!-- 9 -->
+      <shuffle>
+
+        <section>
+          <title>
+            Answer: <m>[$a, \infty)</m>
+          </title>
+          <mathInput name="p7" minWidth="25"/>What <em>graph</em> represents solutions to <m>x \geq $a</m>?
+        </section> 
+        
+        
+      
+      <!-- 10 -->
+        
+        <section>
+          <title>
+            Answer: <m>x \geq $a</m>
+          </title>
+          <mathInput name="p11" minWidth="25"/><m></m>What <em>interval</em> represents the same solutions as the graph fixed below?
+            <graph fixed size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaQLeft" xmax="$xaQRight" displayXAxisTickLabels="true">
+              <vector fixLocation head="($xaQRight,0)" tail="($a,0)"></vector>
+              <endpoint fixLocation open>($a,0)</endpoint>
+            </graph>
+        </section> 
+        
+        
+      </shuffle>
+    </sideBySide>
+    
+    <sideBySide margins = "0% 5% 0%">
+    
+    <!-- 11 -->
+      <shuffle>
+
+        <section>
+          <title>
+            Answer: <graph fixed displayMode="inline" size="small"  fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaLeft" xmax="$xaRight" displayXAxisTickLabels="true">
+          <vector styleNumber="10" fixLocation head="($xaLeft,0)" tail="($a,0)"></vector>
+          <endpoint styleNumber="10" fixLocation open>($a,0)</endpoint>
+        </graph>
+          </title>
+          <mathInput name="p10" minWidth="25"/>What <em>inequality</em> has solutions represented by the graph fixed below?
+            <graph fixed size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaQLeft" xmax="$xaQRight" displayXAxisTickLabels="true">
+                <vector fixLocation head="($xaQRight,0)" tail="($a,0)"></vector>
+                <endpoint fixLocation open="false">($a,0)</endpoint>
+              </graph>
+        </section> 
+      
+      <!-- 12 -->
+
+        <section>
+          <title>
+            Answer: <m>($a, \infty)</m>
+          </title>
+          <mathInput name="p12" minWidth="25"/>What <em>inequality</em> has solutions represented by the graph fixed below?
+            <graph fixed size="small" fixAxes displayYAxis="false" aspectRatio="8/2"  showBorder ="false" ymax="2" ymin="-2" xmin="$xaQLeft" xmax="$xaQRight" displayXAxisTickLabels="true">
+              <vector fixLocation head="($xaQRight,0)" tail="($a,0)"></vector>
+              <endpoint fixLocation open>($a,0)</endpoint>
+            </graph>
+        </section> 
+      
+      
+
+      </shuffle>
+    </sideBySide>
+     
+<!-- </shuffle> -->
+  
+  <answer>
+    <award>
+      <when>
+        <mod><math>$p1 - 12</math> 12</mod> 
+      = <mod><math>$p2 - 1</math> 12</mod> 
+      = <mod><math>$p3 - 2</math> 12</mod> 
+      = <mod><math>$p4 - 3</math> 12</mod> 
+      = <mod><math>$p5 - 4</math> 12</mod> 
+      = <mod><math>$p6 - 5</math> 12</mod> 
+      = <mod><math>$p7 - 6</math> 12</mod> 
+      = <mod><math>$p8 - 7</math> 12</mod> 
+      = <mod><math>$p9 - 8</math> 12</mod> 
+      = <mod><math>$p10 - 9</math> 12</mod>
+      = <mod><math>$p11 - 10</math> 12</mod> 
+      = <mod><math>$p12 - 11</math> 12</mod> 
+      </when>
+    </award>
+  </answer>
+</section>
+</section> 

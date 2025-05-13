@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-anurag" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Proposition 2.1</title>
+
+
+<interactive label="anurag" platform="doenetml" width="100%" aspect="2:8">
+<slate surface="doenetml">
+<xi:include parse="text" href="doenet/anurag.doenetml"/> 
+</slate>
+</interactive>
+</section>

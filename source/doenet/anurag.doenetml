@@ -1,0 +1,94 @@
+<p>Three squares of the same size are shown below.</p>
+
+<p>This is supposed to be in a new line</p>
+
+
+<!-- Usage notes for future adopters - asdngoasidgiasdngasdnasnno -->
+
+
+<graph size="full" xmin="-10" xmax="10" aspectRatio="3/1" ymin="-1" ymax="5" showBorder="false" fixed showNavigation="false" displayXAxis="false" displayYAxis="false">
+  <rectangle width="5" height="4.5" center="(-6,2)" styleNumber="5"></rectangle>
+  <rectangle width="2.5" height="4.5" filled center="(-7.25,2)" styleNumber="6"></rectangle>
+  <!-- <m anchor="(-6, -0.75)">Area=\frac{1}{2}</m> -->
+  <!-- <m anchor="(-6, 4.5)">1</m> -->
+  <!-- <m anchor="(-8.75, 2)">1</m> -->
+  
+  <rectangle width="5" height="4.5" center="(0,2)" styleNumber="5"></rectangle>
+  <rectangle width="2.5" height="2.25" filled center="(1.25,3.125)" styleNumber="6"></rectangle>
+  <!-- <m anchor="(0, -0.75)">Area=\frac{1}{4}</m> -->
+  <!-- <m anchor="(0, 4.5)">1</m> -->
+  <!-- <m anchor="(-2.75, 2)">1</m> -->
+  <lineSegment endpoints="(0,2) (0,-0.25)" styleNumber="6"></lineSegment>
+  <lineSegment endpoints="(0,2) (-2.5,2)" styleNumber="6"></lineSegment>
+  
+  <rectangle width="5" height="4.5" center="(6,2)" styleNumber="5"></rectangle>
+  <rectangle width="2.5" height="1.125" filled center="(7.25,0.3125)" styleNumber="6"></rectangle>
+  <!-- <m anchor="(6, -0.75)">Area=\frac{1}{8}</m> -->
+  <!-- <m anchor="(6, 4.5)">1</m> -->
+  <!-- <m anchor="(3.25, 2)">1</m> -->
+  <lineSegment endpoints="(3.5,2) (8.5,2)" styleNumber="6"></lineSegment>
+  <lineSegment endpoints="(3.5,3.125) (8.5,3.125)" styleNumber="6"></lineSegment>
+  <lineSegment endpoints="(3.5,0.875) (8.5,0.875)" styleNumber="6"></lineSegment>
+  <lineSegment endpoints="(6,4.25) (6,-0.25)" styleNumber="6"></lineSegment>
+</graph>
+
+<p>What ratio of the first square is shaded? <answer symbolicEquality><award>1/2</award><award>4/8</award></answer></p>
+<p>What ratio of the second square is shaded? <answer symbolicEquality><award>1/4</award><award>4/16</award></answer></p>
+<p>What ratio of the third square is shaded? <answer symbolicEquality><award>1/8</award><award>2/16</award></answer></p>
+
+<graph fixed size="small" showBorder="false" showNavigation="false" displayXAxis="false" displayYAxis="false">
+  <rectangle width="16" height="16" styleNumber="5" center="(0,0)"></rectangle>
+  <rectangle width="8" height="16" filled center="(-4,0)" styleNumber="6"></rectangle>
+  <rectangle width="8" height="8" filled center="(4,4)" styleNumber="6"></rectangle>
+  <rectangle width="8" height="4" filled center="(4,-6)" styleNumber="6"></rectangle>
+  
+</graph>
+
+
+
+<p>If all three squares are overlaid on top of each other, what ratio would be shaded? <answer symbolicEquality><award>7/8</award><award>14/16</award></answer></p>
+
+<p>Algebra tiles come in all manner of shapes an sizes. Let's consider two simple 'bars' - one with 5 blocks and one with 3. </p>
+
+<graph fixed size="small" showBorder="false" showNavigation="false" displayXAxis="false" displayYAxis="false">
+  <rectangle center="(0,4)" filled width="10" height="2"></rectangle>
+  <lineSegment endpoints="(-3,5) (-3,3)"></lineSegment>
+  <lineSegment endpoints="(-1,5) (-1,3)"></lineSegment>
+  <m anchor="(0,2)">5</m>
+  <lineSegment endpoints="(1,5) (1,3)"></lineSegment>
+  <lineSegment endpoints="(3,5) (3,3)"></lineSegment>
+
+  <rectangle center="(-2,-4)" filled width="6" height="2" styleNumber="3"></rectangle>
+  <lineSegment endpoints="(-3,-5) (-3,-3)" styleNumber="3"></lineSegment>
+  <m anchor="(-2,-6)">3</m>
+  <lineSegment endpoints="(-1,-5) (-1,-3)" styleNumber="3"></lineSegment>
+</graph>
+
+<p>One can easily see that if one placed two of the 5-block bars next to each other, there would be 10 blocks in total. Similarly, if one placed two of the 3-block bars next to each other, there would be 6 blocks in total. Note that the right ends of the tile sequences are not aligned. Even if we added in another 3-block bar, we would have a total of 9 blocks and we would be short 1 block.</p>
+
+<graph fixed size="small" showBorder="false" showNavigation="false" displayXAxis="false" displayYAxis="false" xmin="-12" xmax="12" ymin="-12" ymax="12">
+  <rectangle center="(0,8)" filled width="20" height="2"></rectangle>
+  <lineSegment endpoints="(-8,7) (-8,9)"></lineSegment>
+  <lineSegment endpoints="(-6,7) (-6,9)"></lineSegment>
+  <m anchor="(-5,6)">5</m>
+  <m anchor="(5,6)">5</m>
+  <lineSegment endpoints="(-4,7) (-4,9)"></lineSegment>
+  <lineSegment endpoints="(-2,7) (-2,9)"></lineSegment>
+  <lineSegment endpoints="(0,6) (0,10)" styleNumber="2"></lineSegment>
+  <lineSegment endpoints="(2,7) (2,9)"></lineSegment>
+  <lineSegment endpoints="(4,7) (4,9)"></lineSegment>
+  <lineSegment endpoints="(6,7) (6,9)"></lineSegment>
+  <lineSegment endpoints="(8,7) (8,9)"></lineSegment>
+
+  <rectangle center="(-4,-4)" filled width="12" height="2" styleNumber="3"></rectangle>
+  <lineSegment endpoints="(-4,-6) (-4,-2)" styleNumber="2"></lineSegment>
+  <lineSegment endpoints="(-2,-5) (-2,-3)" styleNumber="3"></lineSegment>
+  <m anchor="(-1,-6)">3</m>
+  <m anchor="(-7,-6)">3</m>
+  <lineSegment endpoints="(0,-5) (0,-3)" styleNumber="3"></lineSegment>
+  <lineSegment endpoints="(-6,-5) (-6,-3)" styleNumber="3"></lineSegment>
+  <lineSegment endpoints="(-8,-5) (-8,-3)" styleNumber="3"></lineSegment>
+
+</graph>
+
+<p>How many total blocks would be needed so that the right end of the 5-block sequence would be aligned with the 3-block sequence of tiles? </p>

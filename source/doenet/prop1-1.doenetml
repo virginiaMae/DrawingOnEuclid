@@ -1,0 +1,112 @@
+<title>Proposition 1</title>
+<p>Problem</p>
+<p><em>To describe an equilateral triangle on a given finite straight line.</em></p>
+<paginatorControls paginator="$pgn"/>
+<paginator name="pgn">
+<section><title>Step 1.</title>
+<p hide="$begin">Let <m>AB</m> be the given straight line. It is required to describe an equilateral triangle on <m>AB</m>.</p>
+
+<ul>
+  <li>From the center <m>A</m>, at the distance <m>AB</m>, describe the circle <m>BCD</m> (Post. 3).
+    <answer name="ans1a"><award><when>$center1a = $A and $dp1a = $B</when></award></answer>
+  </li>
+</ul>
+  
+<graph name="g1" displayXAxis="false" displayYAxis="false" xmax="16" identicalAxisScales size="full">
+  <point name="A" labelIsName styleNumber="10" fixLocation>(-3,0)</point>
+  <point name="B" labelIsName styleNumber="9" fixLocation>(3,0)</point>
+  <point name="C" labelIsName hide draggable="false" styleNumber="8">
+    (0,sqrt(3)*3)</point>
+  <lineSegment name="lineAB" endpoints="$A $B" styleNumber="5"/>
+
+
+  <group name="tools">
+    <line styleNumber="5" fixed>x= 10</line>
+    <circle name="circ1a" styleNumber="6" center="$center1a" through="$dp1a"/>
+    <point name="dp1a" styleNumber="10">(13, 8)
+      <constraints>
+        <attractTo>$B $A</attractTo>
+      </constraints>
+    </point>
+    <point name="center1a" styleNumber="9">(13, 6)
+      <constraints>
+        <attractTo>$B $A</attractTo>
+      </constraints>
+    </point>
+  </group>
+</graph>
+
+
+</section>
+<section><title>Step 1.</title>
+
+
+
+</section>
+<section><title>Step 2.</title>
+
+
+
+</section>
+<section><title>Step 3.</title>
+
+
+
+</section>
+<section><title>Step 4.</title>
+
+
+
+</section>
+<section><title>Proof.</title>
+
+
+
+</section>
+
+</paginator>
+
+
+
+<!--****************************************************
+            Style Definitions
+*****************************************************-->
+
+
+<setup>
+<styleDefinitions>
+<!--blue, styleNumber 1 corrolary-->
+<styleDefinition styleNumber="7" fillColor="#648FFF" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#648FFF"/>
+<!--red, styleNumber 2 corrolary-->
+<styleDefinition styleNumber="8" fillColor="#D4042D" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineOpacity="0.7"  lineWidth="4"/>
+<!--orange, styleNumber 3 corrolary-->
+<styleDefinition styleNumber="9" fillColor="#F19143" fillOpacity=".8" markerSize="6" markerStyle="circle" markerColor="#F19143" lineColor="#F19143" lineOpacity="0.7"  lineWidth="4"/>
+<!--purple, styleNumber 4 corrolary-->
+<styleDefinition styleNumber="10" fillColor="#644CD6" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#644CD6" lineColor="#644CD6" lineOpacity="0.7" lineWidth="4"/>
+<!--black, styleNumber 5 corrolary-->
+<styleDefinition styleNumber="11" fillColor="dimgray" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="dimgray" lineColor="dimgray" lineOpacity="0.7" lineWidth="4"/>
+<!--green, styleNumber 1 but green corrolary-->
+<styleDefinition styleNumber="12" fillColor="#469152" fillOpacity="0.1" markerSize="6" markerStyle="circle" markerColor="#469152" lineColor="#469152" lineOpacity="0.7" lineWidth="4"/>
+
+<!--dimgray, thin dashed line for drawing lines parametrically-->
+<styleDefinition styleNumber="13" fillColor="dimgray" fillOpacity="0.3" markerSize="3" markerStyle="circle" markerColor="dimgray" lineColor="dimgray" lineOpacity="0.7" lineWidth="2" lineStyle="dotted"/>
+
+<!--red, thin line for drawing lines parametrically-->
+<styleDefinition styleNumber="14" fillColor="#D4042D" fillOpacity="0.3" markerSize="3" markerStyle="circle" markerColor="#D4042D" lineColor="#D4042D" lineOpacity="0.7" lineWidth="2"/>
+
+<!--green, tiny markerSize for drawing lines parametrically-->
+<styleDefinition styleNumber="15" fillColor="#469152" fillOpacity="0.3" markerSize="3" markerStyle="square" markerColor="#469152" lineColor="#469152" lineOpacity="0.7" lineWidth="2"/>
+
+<!--orange, tiny markerSize for drawing lines parametrically-->
+<styleDefinition styleNumber="16" fillColor="#F19143" fillOpacity="0.3" markerSize="3" markerStyle="circle" markerColor="#F19143" markerColorWord="orange" lineColor="#F19143" lineOpacity="0.7" lineWidth="2"/>
+
+<!--blue, thin line for drawing lines parametrically-->
+<styleDefinition styleNumber="17" fillColor="#648FFF" fillOpacity="0.3" markerSize="3" markerStyle="square" markerColor="#648FFF" lineColor="#648FFF" lineOpacity="0.7" lineWidth="2"/>
+
+<!--white, thin line for drawing orbits-->
+<styleDefinition styleNumber="18" fillColor="white" fillOpacity="0.3" markerSize="3" markerStyle="circle" markerColor="white" lineColor="white" lineOpacity="0.7" lineWidth="2"/>
+
+<!--light grey, thin line for drawing axes and foci-->
+<styleDefinition styleNumber="19" fillColor="#D9D9D9" fillOpacity="0.3" markerSize="3" markerStyle="circle" markerColor="#D9D9D9" lineColor="#D9D9D9" lineOpacity="0.7" lineWidth="2"/>
+</styleDefinitions>
+</setup>

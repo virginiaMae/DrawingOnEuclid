@@ -11,5 +11,5 @@
   <xi:include href="sec-parsons.ptx" />
   <xi:include href="sec-doenetml.ptx" />
   <xi:include href="sec-prefigure.ptx" />
-
+  <xi:include href="sec-euclid1-1.ptx" />
 </chapter>
